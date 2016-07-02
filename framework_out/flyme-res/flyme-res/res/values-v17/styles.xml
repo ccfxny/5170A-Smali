@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Flyme.AppCompat.ActionButton" parent="@style/Base.Widget.Flyme.AppCompat.ActionButton">
+        <item name="android:paddingStart">5.0dip</item>
+        <item name="android:paddingEnd">5.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Toolbar.Button.Navigation" parent="@style/Base.Widget.Flyme.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:paddingStart">10.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.MultiChoiceView.Item" parent="@style/Widget.Flyme.AppCompat.ActionButton">
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:paddingRight">19.0dip</item>
+        <item name="android:paddingStart">19.0dip</item>
+        <item name="android:paddingEnd">19.0dip</item>
+    </style>
+    <style name="Theme.Flyme.Light" parent="@style/Base.V17.Theme.Flyme.Light" />
+    <style name="Theme.Flyme.Light.Dialog.Alert" parent="@style/Base.V17.Flyme.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Base.V17.Theme.Flyme.Light" parent="@style/Base.Theme.Flyme.Light">
+        <item name="android:listPreferredItemPaddingStart">@dimen/mz_list_item_content_padding_left</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/mz_list_item_content_padding_right</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.Flyme.Light.CheckedTextView</item>
+    </style>
+    <style name="Base.V17.Flyme.Light.Dialog.Alert" parent="@style/Base.Theme.Flyme.Light.Dialog.Alert">
+        <item name="android:checkedTextViewStyle">@style/Widget.Flyme.Light.CheckedTextView</item>
+    </style>
+</resources>

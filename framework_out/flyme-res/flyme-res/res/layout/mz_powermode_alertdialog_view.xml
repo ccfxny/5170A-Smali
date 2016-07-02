@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="0.0dip" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="250.0dip" android:layout_height="157.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="#cc000000" android:id="@id/mz_powermode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="20.0dip" android:layout_below="@id/mz_powermode_title">
+        <RelativeLayout android:id="@id/mz_powermode_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_alignParentLeft="true">
+            <ImageView android:id="@id/mz_mode1_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#cc000000" android:id="@id/mz_mode1_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mz_mode1_imageview" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="50.0dip" android:layout_alignTop="@id/mz_powermode_1" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/mz_mode2_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="14.0sp" android:textColor="#cc000000" android:id="@id/mz_mode2_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/mz_mode2_imageview" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

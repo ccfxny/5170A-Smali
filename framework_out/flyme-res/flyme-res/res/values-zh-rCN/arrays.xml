@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="system_ringtone_name_list">
+        <item>钢琴</item>
+        <item>数码</item>
+        <item>Flyme</item>
+        <item>音乐盒</item>
+        <item>科技</item>
+        <item>吉他</item>
+        <item>马林巴琴</item>
+        <item>淘气</item>
+        <item>水晶</item>
+        <item>前进</item>
+        <item>猫的一家</item>
+        <item>清晨的旋律</item>
+        <item>爱的呼唤</item>
+        <item>不倒翁</item>
+        <item>启程</item>
+        <item>新生活</item>
+        <item>心跳</item>
+        <item>东岸往事</item>
+        <item>华尔兹</item>
+        <item>指挥家</item>
+        <item>热情</item>
+        <item>旅途</item>
+        <item>竞技</item>
+        <item>雨纷飞</item>
+        <item>暮光之舞</item>
+        <item>拂晓</item>
+        <item>家</item>
+        <item>布鲁斯</item>
+        <item>冲刺</item>
+        <item>机械铃声</item>
+        <item>电话</item>
+        <item>寻呼机</item>
+        <item>放学</item>
+        <item>马里奥</item>
+        <item>晚安</item>
+        <item>翱翔</item>
+        <item>孩提时光</item>
+        <item>晨练</item>
+        <item>甜心</item>
+        <item>谢幕</item>
+        <item>胜利</item>
+        <item>提醒</item>
+        <item>门铃</item>
+        <item>晋升</item>
+        <item>凌波</item>
+        <item>到达</item>
+        <item>聪明</item>
+        <item>敏捷</item>
+        <item>红酒木塞</item>
+        <item>轻敲</item>
+        <item>水滴</item>
+        <item>连接</item>
+        <item>团团转</item>
+        <item>礼物</item>
+        <item>打击</item>
+        <item>弦音</item>
+        <item>跃动</item>
+        <item>顽皮</item>
+        <item>巧克力</item>
+        <item>秒速</item>
+        <item>转角</item>
+        <item>帝国</item>
+        <item>跳跃</item>
+        <item>殿堂</item>
+        <item>流星</item>
+        <item>涟漪</item>
+        <item>闪耀</item>
+        <item>静夜</item>
+        <item>北极星</item>
+        <item>时空隧道</item>
+    </string-array>
+    <string-array name="urlspan_tel_dialog_title">
+        <item>拨打</item>
+        <item>发信息</item>
+        <item>复制</item>
+        <item>加为联系人</item>
+    </string-array>
+    <string-array name="urlspan_email_dialog_title">
+        <item>新邮件</item>
+        <item>复制</item>
+        <item>加为联系人</item>
+    </string-array>
+    <string-array name="urlspan_date_dialog_title">
+        <item>新事件</item>
+        <item>在日历中显示</item>
+        <item>复制</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title">
+        <item>打开</item>
+        <item>复制</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title_chinamobile">
+        <item>打开</item>
+        <item>复制</item>
+        <item>添加书签</item>
+    </string-array>
+    <string-array name="calendar_week_title">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="smartbar_left_right_padding">
+        <item>160px</item>
+        <item>170px(默认)</item>
+        <item>180px</item>
+    </string-array>
+</resources>

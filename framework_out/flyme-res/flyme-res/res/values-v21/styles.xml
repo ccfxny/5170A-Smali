@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Widget.Flyme.Light.Spinner.DropDown" parent="@style/Widget.Flyme.Light.Spinner">
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+        <item name="android:popupElevation">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ListPopupWindow" parent="@style/Widget.Flyme.Light.ListPopupWindow">
+        <item name="android:popupElevation">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.Flyme.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+        <item name="android:popupElevation">0.0dip</item>
+    </style>
+    <style name="Theme.Flyme.Light" parent="@style/Base.V17.Theme.Flyme.Light">
+        <item name="android:alertDialogTheme">@style/Theme.Flyme.Light.Dialog.Alert</item>
+        <item name="android:colorEdgeEffect">@color/mz_edge_effect_color</item>
+    </style>
+    <style name="Theme.Flyme.Light.Dialog.Alert" parent="@style/Base.V17.Flyme.Light.Dialog.Alert">
+        <item name="android:alertDialogTheme">@style/Theme.Flyme.Light.Dialog.Alert</item>
+        <item name="android:buttonBarNeutralButtonStyle">@style/Widget.Flyme.Button.ButtonBar.AlertDialog</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/Widget.Flyme.Button.ButtonBar.AlertDialog</item>
+    </style>
+</resources>

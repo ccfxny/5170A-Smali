@@ -1,0 +1,35 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: meizu2_jcifs.jar
+compressionType: false
+doNotCompress: null
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+unknownFiles:
+  plugin.properties: '8'
+  about.html: '8'
+  about_files/LICENSE.txt: '8'
+  javax/servlet/LocalStrings_fr.properties: '8'
+  javax/servlet/LocalStrings_ja.properties: '8'
+  javax/servlet/LocalStrings.properties: '8'
+  javax/servlet/http/LocalStrings_fr.properties: '8'
+  javax/servlet/http/LocalStrings_ja.properties: '8'
+  javax/servlet/http/LocalStrings.properties: '8'
+  javax/servlet/http/LocalStrings_es.properties: '8'
+  javax/servlet/resources/web-app_2_3.dtd: '8'
+  javax/servlet/resources/jsp_2_0.xsd: '8'
+  javax/servlet/resources/j2ee_web_services_client_1_1.xsd: '8'
+  javax/servlet/resources/XMLSchema.dtd: '8'
+  javax/servlet/resources/xml.xsd: '8'
+  javax/servlet/resources/web-app_2_2.dtd: '8'
+  javax/servlet/resources/jspxml.xsd: '8'
+  javax/servlet/resources/j2ee_web_services_1_1.xsd: '8'
+  javax/servlet/resources/web-app_2_4.xsd: '8'
+  javax/servlet/resources/web-app_2_5.xsd: '8'
+  javax/servlet/resources/datatypes.dtd: '8'
+  javax/servlet/resources/web-jsptaglibrary_2_0.xsd: '8'
+  javax/servlet/resources/j2ee_1_4.xsd: '8'
+usesFramework: null
+version: 2.1.1-04d478-SNAPSHOT
+versionInfo: null

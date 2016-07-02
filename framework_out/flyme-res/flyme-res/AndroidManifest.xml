@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" coreApp="true" package="flyme">
+    <permission android:name="android.permission.SET_APPLICATION_ERROR_LISTENER" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="system|signature"/>
+    <application android:allowClearUserData="false" android:hasCode="false" android:killAfterRestore="false" android:label="@null" android:persistent="true" android:process="system" android:supportsRtl="true"/>
+</manifest>

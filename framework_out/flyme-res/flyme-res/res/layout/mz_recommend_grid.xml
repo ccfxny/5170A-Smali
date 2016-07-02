@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?android:dividerHorizontal" android:dividerPadding="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:paddingBottom="@dimen/mz_resolve_content_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <GridView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center_horizontal" android:id="@id/mz_recommend_apps_grid" android:paddingLeft="@dimen/mz_recommend_grid_padding_left" android:paddingRight="@dimen/mz_recommend_grid_padding_right" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/mz_recommend_grid_margin_left" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/mz_recommend_grid_margin_right" android:layout_marginBottom="@dimen/mz_resolve_grid_bottom" android:verticalSpacing="@dimen/mz_resolve_grid_item_gap_between_rows" android:numColumns="3" android:fillViewport="true" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="4.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/mz_recommend_check_bar" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_margin_left" android:paddingRight="@dimen/mz_resolve_grid_checkbox_margin_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mz_resolve_grid_checkbox_height">
+            <View android:background="@color/mz_global_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="0.0" />
+            <CheckBox android:textSize="@dimen/mz_resolve_checkbox_text_size" android:textColor="@color/mz_8e_alpha_black_color" android:id="@id/mz_recommend_alwaysUse" android:background="@null" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_padding_left" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mz_resolve_grid_checkbox_padding_left" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

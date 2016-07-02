@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_gravity="top" android:id="@id/action_bar_container" android:background="@drawable/float_window_actionbar_pause" android:layout_width="fill_parent" android:layout_height="@dimen/floatwindow_action_bar_height">
+        <ImageView android:id="@id/activityLogo" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="5.0dip" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/logo" />
+        <ImageView android:gravity="center" android:id="@id/activityClose" android:background="@drawable/float_window_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/float_window_exit" android:scaleType="center" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/close" />
+        <ImageView android:gravity="center" android:id="@id/activityMaximum" android:background="@drawable/float_window_icon_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/float_window_maximum" android:scaleType="center" android:layout_toLeftOf="@id/activityClose" android:layout_centerVertical="true" android:contentDescription="@string/maximum" />
+        <ImageView android:gravity="center" android:id="@id/activityStick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:src="@drawable/float_window_stick" android:scaleType="center" android:layout_toLeftOf="@id/activityMaximum" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:windowContentOverlay" android:minWidth="50.0dip" android:minHeight="50.0dip" android:foregroundGravity="fill_horizontal|center|top" />
+        <FrameLayout android:id="@id/dialog_layout" android:background="@android:drawable/screen_background_dark_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?android:windowContentOverlay" android:foregroundGravity="fill_horizontal|center|top">
+            <FrameLayout android:layout_gravity="center" android:id="@id/dialog_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:windowContentOverlay" android:foregroundGravity="fill_horizontal|center|top" />
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

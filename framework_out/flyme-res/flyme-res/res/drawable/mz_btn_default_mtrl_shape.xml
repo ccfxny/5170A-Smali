@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/mz_button_inset_horizontal" android:insetRight="@dimen/mz_button_inset_horizontal" android:insetTop="@dimen/mz_button_inset_vertical" android:insetBottom="@dimen/mz_button_inset_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/mz_btn_default_light" />
+    </shape>
+</inset>

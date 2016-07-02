@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/mz_resolve_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/mz_resolver_drag_handle" android:layout_width="40.0dip" android:layout_height="fill_parent">
+        <ImageView android:id="@id/drag_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mz_resolver_drag_icon" android:scaleType="centerInside" />
+    </LinearLayout>
+    <ImageView android:id="@android:id/icon" android:layout_width="@dimen/mz_resolve_list_item_icon_width" android:layout_height="@dimen/mz_resolve_list_item_icon_height" android:scaleType="centerInside" />
+    <TextView android:textSize="@dimen/mz_resolve_list_item_text_size" android:textColor="@color/mz_favor_select_text" android:ellipsize="end" android:gravity="center" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:singleLine="true" />
+</LinearLayout>

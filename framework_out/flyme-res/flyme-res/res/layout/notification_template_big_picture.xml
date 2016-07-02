@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/mz_notification_big_picture_height" internal:layout_maxHeight="unbounded" internal:layout_minHeight="@dimen/mz_template_big_notification_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:internal="http://schemas.android.com/apk/prv/res/android">
+    <ImageView android:layout_gravity="bottom" android:id="@id/big_picture" android:layout_width="fill_parent" android:layout_height="@dimen/mz_notification_big_picture_height" android:scaleType="centerCrop" />
+    <ImageView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="6.0dip" android:src="@drawable/title_bar_shadow" android:scaleType="fitXY" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/notification_template_base" />
+    <FrameLayout android:layout_gravity="bottom" android:background="@drawable/notification_template_big_picture_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/mz_notification_big_picture_actions_margin_top" android:paddingStart="@dimen/mz_template_big_picture_padding_start">
+        <include android:layout_gravity="bottom" android:id="@id/actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/mz_template_big_picture_margin_end" layout="@layout/notification_action_list" />
+    </FrameLayout>
+</FrameLayout>

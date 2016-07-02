@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="24.0dip" android:paddingTop="10.0dip" android:paddingRight="24.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="#7d000000" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/enable_airplane_notify" />
+    <CheckBox android:textSize="16.0sp" android:textColor="#4c000000" android:id="@id/reminder" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/not_prompt_notify" android:layout_below="@id/message" />
+</RelativeLayout>

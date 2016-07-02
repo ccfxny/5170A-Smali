@@ -1,0 +1,1152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Animation.Activity" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/mz_activity_to_next_open_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/mz_activity_to_next_open_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/mz_activity_to_next_close_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/mz_activity_to_next_close_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/mz_new_app_to_next_open_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/mz_new_app_to_next_open_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/mz_new_app_to_next_close_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/mz_new_app_to_next_close_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/mz_new_app_to_next_open_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/mz_new_app_to_next_open_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/mz_new_app_to_next_close_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/mz_new_app_to_next_close_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/mz_wallpaper_close_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/mz_wallpaper_close_exit</item>
+        <item name="android:wallpaperCloseEnterAnimation">@anim/mz_wallpaper_open_enter</item>
+        <item name="android:wallpaperCloseExitAnimation">@anim/mz_wallpaper_open_exit</item>
+        <item name="android:fragmentOpenEnterAnimation">@animator/mz_fragment_open_enter</item>
+        <item name="android:fragmentOpenExitAnimation">@animator/mz_fragment_open_exit</item>
+        <item name="android:fragmentCloseEnterAnimation">@animator/mz_fragment_close_enter</item>
+        <item name="android:fragmentCloseExitAnimation">@animator/mz_fragment_close_exit</item>
+    </style>
+    <style name="Animation.RecentApplications" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_push_up_in_recent</item>
+        <item name="android:windowExitAnimation">@anim/mz_push_down_out_recent</item>
+        <item name="android:windowShowAnimation">@anim/mz_push_up_in_recent</item>
+        <item name="android:windowHideAnimation">@anim/mz_push_down_out_recent</item>
+    </style>
+    <style name="Animation.CalculatorBigToMiddle" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_calculator_big_to_middle</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="Animation.CalculatorBigToSmall" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_calculator_big_to_small</item>
+        <item name="android:windowExitAnimation">@null</item>
+    </style>
+    <style name="Animation.CalculatorWindowEnterExit" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_calculator_enter</item>
+        <item name="android:windowExitAnimation">@anim/mz_calculator_exit</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.StatusBar" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:textColorHighlight">?android:textColorHighlight</item>
+        <item name="android:textColorHint">?android:textColorHint</item>
+        <item name="android:textColorLink">?android:textColorLink</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.Flyme.Light.StatusBar">
+        <item name="android:textSize">@dimen/mz_notification_text_size</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@android:dimen/notification_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffe5e5e5</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Line2" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@android:dimen/notification_subtext_size</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Info" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@android:dimen/notification_subtext_size</item>
+        <item name="android:textColor">#ff808080</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Time" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">@android:dimen/notification_subtext_size</item>
+        <item name="android:textColor">#99ffffff</item>
+    </style>
+    <style name="Widget.AbsListView" parent="@android:style/Widget">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadingEdge">vertical</item>
+        <item name="android:overScrollMode">always</item>
+    </style>
+    <style name="Widget.HorizontalScrollView" parent="@android:style/Widget">
+        <item name="android:scrollbars">horizontal</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="TextAppearance.EditEvent_Small" parent="@android:style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffaaaaaa</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="EditPhoneNumberPreference">
+        <item name="enableButtonText">@android:string/ok</item>
+        <item name="disableButtonText">@string/disable</item>
+        <item name="changeNumButtonText">@string/change_num</item>
+        <item name="confirmMode">activation</item>
+    </style>
+    <style name="Widget.ActionButton.MzBack" parent="@android:style/Widget.ActionButton">
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:minHeight">@dimen/mz_action_button_min_height</item>
+        <item name="backIcon">@drawable/mz_ic_tab_back_normal_dark</item>
+    </style>
+    <style name="Widget.ActionButton.MzBack.Light" parent="@style/Widget.ActionButton.MzBack">
+        <item name="backIcon">@drawable/mz_ic_tab_back_normal</item>
+    </style>
+    <style name="Widget.Holo.ActionButton.MzBack" parent="@style/Widget.ActionButton.MzBack">
+        <item name="backIcon">@drawable/mz_ic_tab_back_normal_dark</item>
+    </style>
+    <style name="Widget.Holo.Light.ActionButton.MzBack" parent="@style/Widget.ActionButton.MzBack.Light" />
+    <style name="Widget.StaggeredGridView" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+    </style>
+    <style name="GlobalActionsDialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Widget.Material.Light.PopupMenu.Overflow" parent="@android:style/Widget.Material.PopupMenu.Overflow">
+        <item name="android:overlapAnchor">false</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Horizontal.BootAnim" parent="@style/Widget.Flyme.Light.ProgressBar.Horizontal">
+        <item name="android:maxHeight">6.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_indeterminate</item>
+        <item name="android:progressDrawable">@drawable/mz_progress_horizontal</item>
+        <item name="android:minHeight">6.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Horizontal.Notification" parent="@style/Widget.Flyme.Light.ProgressBar.Horizontal">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/mz_progress_horizontal_notification</item>
+        <item name="android:minHeight">2.399994dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Big" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large">
+        <item name="android:maxWidth">21.599976dip</item>
+        <item name="android:maxHeight">21.599976dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_big</item>
+        <item name="android:minWidth">21.599976dip</item>
+        <item name="android:minHeight">21.599976dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.Button.Borderless.Small" parent="@android:style/Widget.DeviceDefault.Light.Button.Borderless.Small">
+        <item name="android:background">@drawable/mz_btn_borderless_background</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionBar.Solid" parent="@style/Widget.Flyme.Light.ActionBar" />
+    <style name="TextAppearance.Flyme.Light.Medium.Bold" parent="@style/TextAppearance.Flyme.Light.Medium">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="AlertDialog.Flyme.Light" parent="" />
+    <style name="Theme.Flyme.Light.CompactMenu" parent="@style/Theme.Flyme.Light">
+        <item name="android:listViewStyle">@android:style/Widget.DeviceDefault.Light.ListView.DropDown</item>
+        <item name="android:background">@null</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
+    </style>
+    <style name="Widget.Flyme.ActionButton.MzBack" parent="@style/Widget.Holo.ActionButton.MzBack">
+        <item name="backIcon">@drawable/mz_ic_tab_back_normal_dark</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionButton.MzBack" parent="@style/Widget.Holo.Light.ActionButton.MzBack">
+        <item name="backIcon">@drawable/mz_ic_tab_back</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Medium.Huge" parent="@style/TextAppearance.Flyme.Light.Medium">
+        <item name="android:textSize">@dimen/mz_contactbadge_text1_size_huge</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Small.Huge" parent="@style/TextAppearance.Flyme.Light.Small">
+        <item name="android:textSize">@dimen/mz_contactbadge_text2_size_huge</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Medium.SuperLarge" parent="@style/TextAppearance.Flyme.Light.Medium">
+        <item name="android:textSize">@dimen/mz_contactbadge_text1_size_super_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Small.SuperLarge" parent="@style/TextAppearance.Flyme.Light.Small">
+        <item name="android:textSize">@dimen/mz_contactbadge_text2_size_super_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Small.AlertDialog" parent="@style/TextAppearance.Flyme.Light.Small">
+        <item name="android:textColor">#8e000000</item>
+    </style>
+    <style name="Widget.Flyme.Light.Button.Borderless.Small.Dialog" parent="@style/Widget.Flyme.Light.Button.Borderless.Small">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+        <item name="android:textColor">@color/mz_dialog_button_text</item>
+        <item name="android:minHeight">@dimen/mz_alert_dialog_button_bar_height</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.AlertDialog.HasListTitle" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#71000000</item>
+    </style>
+    <style name="Theme_Flyme_Light_AccessControl" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Activity</item>
+        <item name="android:editTextBackground">@drawable/access_application_edit_text</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="Theme.Flyme.InputMethod" parent="@android:style/Theme.DeviceDefault.InputMethod">
+        <item name="android:buttonStyle">@style/Widget.Flyme.Light.Button</item>
+        <item name="android:checkboxStyle">@style/Widget.Flyme.Light.CompoundButton.CheckBox</item>
+        <item name="mzThemeColor">#ff32a5e7</item>
+        <item name="mzAlertDialogTheme">@style/Theme.Flyme.Light.Dialog.Alert.InputMethod</item>
+    </style>
+    <style name="Theme.Flyme.Light.Dialog.Alert.InputMethod" parent="@style/Theme.Flyme.Light.Dialog.Alert">
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="borderlessButtonStyle">
+        <item name="android:background">@drawable/mz_notification_actions_bg</item>
+        <item name="android:paddingStart">4.0dip</item>
+        <item name="android:paddingEnd">4.0dip</item>
+    </style>
+    <style name="Animation.Magnifier" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/magnifier_enter</item>
+        <item name="android:windowExitAnimation">@anim/magnifier_exit</item>
+    </style>
+    <style name="Widget.EditTextEx" parent="@android:style/Widget.EditText">
+        <item name="mzTextColorStaticHint">@color/mz_secondary_text_color_light</item>
+        <item name="mzPaddingRightStaticHint">@dimen/static_hint_to_edit_padding</item>
+    </style>
+    <style name="Widget.LockPasswordView" parent="@android:style/Widget">
+        <item name="mzLockPasswordSolidDrawable">@drawable/ic_password_fill</item>
+        <item name="mzLockPasswordHollowDrawable">@drawable/ic_password_gap</item>
+        <item name="mzLockPasswordCellSize">14.0dip</item>
+        <item name="mzLockPasswordHollowVisible">true</item>
+    </style>
+    <style name="TextAppearance.Flyme.Widget.ActionBar.Title" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/mz_action_bar_title_text_size</item>
+        <item name="android:textColor">@color/mz_action_bar_title_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:fontFamily">@null</item>
+    </style>
+    <style name="TextAppearance.Flyme.Widget.ActionBar.Subtitle" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/mz_action_bar_subtitle_text_size</item>
+        <item name="android:textColor">@color/mz_action_bar_subtitle_color</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionMode" parent="@android:style/Widget.DeviceDefault.Light.ActionMode">
+        <item name="android:titleTextStyle">@style/TextAppearance.Flyme.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Flyme.Widget.ActionBar.Subtitle</item>
+    </style>
+    <style name="TextAppearance.Flyme.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.Flyme.ListView.DropDown" parent="@android:style/Widget.DeviceDefault.ListView.DropDown">
+        <item name="android:scrollbarStyle">outsideOverlay</item>
+        <item name="android:paddingLeft">@dimen/mz_popup_list_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/mz_popup_list_item_padding_right</item>
+        <item name="android:divider">@drawable/mz_new_list_line</item>
+        <item name="android:overScrollMode">ifContentScrolls</item>
+    </style>
+    <style name="Widget.Flyme.Light.ListView.DropDown" parent="@android:style/Widget.DeviceDefault.Light.ListView.DropDown">
+        <item name="android:divider">@drawable/mz_new_list_line</item>
+    </style>
+    <style name="TextAppearance.Flyme" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Flyme.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Flyme.Large" parent="@android:style/TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">@dimen/mz_text_size_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Large.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Large.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Medium" parent="@android:style/TextAppearance.DeviceDefault.Medium">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Flyme.Medium.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Medium.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Flyme.Small" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textSize">@dimen/mz_text_size_small</item>
+        <item name="android:textColor">@color/mz_secondary_text_light</item>
+    </style>
+    <style name="TextAppearance.Flyme.Small.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Small.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_small</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light" parent="@style/TextAppearance.Flyme">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Inverse" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Large" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">@dimen/mz_text_size_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Large.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Large.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_large</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Medium" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Medium.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Medium.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Small" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">@dimen/mz_text_size_small</item>
+        <item name="android:textColor">@color/mz_secondary_text_light</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Small.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Small.Inverse">
+        <item name="android:textSize">@dimen/mz_text_size_small</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Widget">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">?android:textColorAlertDialogListItem</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Horizontal.ActionBar" parent="@style/Widget.Flyme.Light.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/mz_actionbar_progress_horizontal</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:progressBarStyle">@style/Widget.Flyme.Light.ProgressBar.Horizontal.ActionBar</item>
+        <item name="android:background">@null</item>
+        <item name="android:displayOptions">showTitle</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Flyme.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/TextAppearance.Flyme.Widget.ActionBar.Subtitle</item>
+        <item name="android:progressBarPadding">0.0dip</item>
+        <item name="android:backgroundStacked">@null</item>
+        <item name="android:backgroundSplit">@null</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Horizontal" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal">
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_indeterminate_horizontal</item>
+        <item name="android:progressDrawable">@drawable/mz_progress_horizontal</item>
+        <item name="android:minHeight">2.399994dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionBar.TabBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabBar">
+        <item name="android:showDividers">none</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionBar.TabView" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/mz_tab_indicator</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionBar.TabText" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabText">
+        <item name="android:textSize">@dimen/mz_text_size_small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/mz_action_bar_right_text_color</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionButton" parent="@android:style/Widget.DeviceDefault.Light.ActionButton">
+        <item name="android:textSize">@null</item>
+        <item name="android:background">@drawable/mz_ic_actionbar_highlight</item>
+        <item name="android:minWidth">@dimen/mz_action_button_min_width</item>
+        <item name="android:minHeight">@dimen/mz_action_button_min_height</item>
+    </style>
+    <style name="Widget.Flyme.Light.Spinner" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:background">@drawable/mz_spinner_background_light</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Widget.Flyme.Light.Spinner.DropDown" parent="@style/Widget.Flyme.Light.Spinner">
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+    </style>
+    <style name="Widget.Flyme.Light.Spinner.DropDown.ActionBar" parent="@style/Widget.Flyme.Light.Spinner.DropDown">
+        <item name="android:background">@drawable/mz_topbar_dropdown_ic_arrow</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">-1.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ActionButton.Overflow" parent="@android:style/Widget.DeviceDefault.Light.ActionButton.Overflow">
+        <item name="android:background">@drawable/mz_ic_actionbar_highlight</item>
+        <item name="android:src">@drawable/mz_ic_tab_more_normal_dark</item>
+        <item name="android:minWidth">@dimen/mz_action_button_min_width</item>
+        <item name="android:minHeight">@dimen/mz_action_button_min_height</item>
+    </style>
+    <style name="Widget.Flyme.Light.AutoCompleteTextView" parent="@android:style/Widget.DeviceDefault.Light.EditText">
+        <item name="android:completionHintView">@layout/mz_simple_dropdown_hint</item>
+        <item name="android:completionThreshold">2</item>
+        <item name="android:dropDownSelector">@drawable/mz_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/mz_list_history_background</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.Button" parent="@android:style/Widget.DeviceDefault.Light.Button">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">@color/mz_button_corner_text_color_default</item>
+        <item name="android:background">@drawable/mz_btn_list_default</item>
+    </style>
+    <style name="Widget.Flyme.Light.CompoundButton.CheckBox" parent="@android:style/Widget.DeviceDefault.Light.CompoundButton.CheckBox">
+        <item name="android:background">@null</item>
+        <item name="android:button">@drawable/mz_btn_check_multiple</item>
+    </style>
+    <style name="Widget.Flyme.Light.CheckedTextView" parent="@android:style/Widget.DeviceDefault.Light.CheckedTextView">
+        <item name="android:textColor">@color/mz_popup_checked_text_color</item>
+        <item name="android:checkMark">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.Flyme.Light.ListPopupWindow" parent="@android:style/Widget.DeviceDefault.Light.ListPopupWindow">
+        <item name="android:dropDownSelector">@drawable/mz_list_selector_background</item>
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.PopupMenu" parent="@style/Widget.Flyme.Light.ListPopupWindow" />
+    <style name="Widget.Flyme.Light.PopupWindow" parent="@android:style/Widget.DeviceDefault.Light.PopupWindow">
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar">
+        <item name="android:maxWidth">16.0dip</item>
+        <item name="android:maxHeight">16.0dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_medium</item>
+        <item name="android:minWidth">16.0dip</item>
+        <item name="android:minHeight">16.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Large" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large">
+        <item name="android:maxWidth">19.199982dip</item>
+        <item name="android:maxHeight">19.199982dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_large</item>
+        <item name="android:minWidth">19.199982dip</item>
+        <item name="android:minHeight">19.199982dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.SeekBar" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:background">@null</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_scrubber_progress_horizontal</item>
+        <item name="android:progressDrawable">@drawable/mz_scrubber_progress_horizontal</item>
+        <item name="android:thumb">@drawable/mz_scrubber_control_selector</item>
+    </style>
+    <style name="Widget.Flyme.Light.ProgressBar.Small" parent="@android:style/Widget.DeviceDefault.Light.ProgressBar.Small">
+        <item name="android:maxWidth">10.399994dip</item>
+        <item name="android:maxHeight">10.399994dip</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_progress_small</item>
+        <item name="android:minWidth">10.399994dip</item>
+        <item name="android:minHeight">10.399994dip</item>
+    </style>
+    <style name="Widget.Flyme.EditText.Dialog" parent="@android:style/Widget.DeviceDefault.EditText">
+        <item name="android:textSize">@dimen/mz_alert_dialog_edittext_text_size</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/mz_alert_dialog_edittext_inner_padding_left</item>
+        <item name="android:paddingBottom">@dimen/mz_alert_dialog_edittext_inner_padding_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="Widget.Flyme.Light.RatingBar" parent="@android:style/Widget.DeviceDefault.Light.RatingBar">
+        <item name="android:indeterminateDrawable">@drawable/mz_ratingbar_full_light</item>
+        <item name="android:progressDrawable">@drawable/mz_ratingbar_full_light</item>
+        <item name="android:minHeight">29.299988dip</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.Meizu" parent="@android:style/Widget.DeviceDefault.Light.ListView">
+        <item name="android:paddingLeft">@dimen/mz_list_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/mz_list_item_padding_right</item>
+    </style>
+    <style name="Widget.DeviceDefault.CompoundButton.CheckButtonlessMultiple" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mz_btn_check_buttonless_multiple</item>
+        <item name="android:focusable">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:button">@null</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.EditText.Dialog" parent="@android:style/Widget.DeviceDefault.Light.EditText">
+        <item name="android:textSize">@dimen/mz_alert_dialog_edittext_text_size</item>
+        <item name="android:textColor">@color/mz_alert_dialog_edittext_text_color</item>
+        <item name="android:paddingLeft">@dimen/mz_alert_dialog_edittext_inner_padding_left</item>
+        <item name="android:paddingBottom">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">12.0dip</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingExtra">@dimen/mz_alert_dialog_edittext_line_spacing</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.Button.Meizu" parent="@android:style/Widget.DeviceDefault.Light.Button">
+        <item name="android:background">@drawable/mz_btn_list_default</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.ListView.Meizu.Partition" parent="@android:style/Widget.DeviceDefault.Light.ListView">
+        <item name="android:paddingLeft">@dimen/mz_list_item_padding_left</item>
+        <item name="android:paddingRight">@dimen/mz_list_item_padding_right</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:listSelector">@drawable/mz_list_selector_background</item>
+        <item name="android:divider">@drawable/mz_list_divider_light</item>
+        <item name="android:footerDividersEnabled">true</item>
+        <item name="mzDividerInside">true</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.MzPickerLayout" parent="@android:style/Widget.DeviceDefault.Light">
+        <item name="android:layout_width">@dimen/mz_picker_width</item>
+        <item name="android:layout_height">@dimen/mz_picker_height</item>
+        <item name="android:layout_marginLeft">@dimen/mz_picker_layout_margin_left</item>
+        <item name="android:layout_marginTop">@dimen/mz_picker_layout_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/mz_picker_layout_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/mz_picker_layout_margin_bottom</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.Light.Widget.PopupMenu.Large" parent="@android:style/TextAppearance.Widget">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+        <item name="android:textColor">?android:textColorAlertDialogListItem</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CheckedTextView.SingleChoice" parent="@android:style/Widget.DeviceDefault.Light.CheckedTextView">
+        <item name="android:checkMark">?android:listChoiceIndicatorSingle</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.CheckedTextView.MultiChoice" parent="@android:style/Widget.DeviceDefault.Light.CheckedTextView">
+        <item name="android:checkMark">?android:listChoiceIndicatorMultiple</item>
+    </style>
+    <style name="Widget.DeviceDefault.Light.SeekBar.White" parent="@android:style/Widget.DeviceDefault.Light.SeekBar">
+        <item name="android:background">@null</item>
+        <item name="android:indeterminateDrawable">@drawable/mz_scrubber_progress_horizontal_white</item>
+        <item name="android:progressDrawable">@drawable/mz_scrubber_progress_horizontal_white</item>
+        <item name="android:thumb">@drawable/mz_scrubber_control_selector_white</item>
+    </style>
+    <style name="DialogWindowTitle" />
+    <style name="DialogWindowTitle.Flyme" parent="@style/DialogWindowTitle">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Light.DialogWindowTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.DialogWindowTitle" parent="@android:style/TextAppearance.Holo.DialogWindowTitle">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#cc000000</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Content" parent="">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#cc000000</item>
+    </style>
+    <style name="DialogWindowTitle.Flyme.Light" parent="@style/DialogWindowTitle.Flyme">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Light.DialogWindowTitle</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="TextAppearance.Flyme.Light.Medium.AlertDialog" parent="@style/TextAppearance.Flyme.Light.Medium">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">#cc000000</item>
+    </style>
+    <style name="Widget.Flyme.Light.Button.Borderless.AlertDialog" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">@color/mz_button_positive_text_default</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:minHeight">@dimen/mz_alert_dialog_button_bar_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Flyme.Light.ButtonBar.AlertDialog" parent="@android:style/DeviceDefault.Light.ButtonBar.AlertDialog">
+        <item name="android:divider">@drawable/mz_popup_divider_line</item>
+    </style>
+    <style name="PreferenceScreen" />
+    <style name="PreferenceScreen.Flyme" parent="@style/PreferenceScreen">
+        <item name="android:layout">@layout/mz_preference</item>
+        <item name="android:widgetLayout">@layout/mz_right_arrow</item>
+    </style>
+    <style name="PreferenceScreen.Flyme.Light" parent="@style/PreferenceScreen.Flyme" />
+    <style name="Preference.Flyme.Light.PreferenceScreen" parent="@style/Preference.Flyme.Light">
+        <item name="android:widgetLayout">@layout/mz_right_arrow</item>
+    </style>
+    <style name="Preference.Flyme.Light.PreferenceCategory" parent="@style/Preference.Flyme.Light">
+        <item name="android:layout">@layout/mz_preference_category</item>
+        <item name="android:selectable">false</item>
+        <item name="android:shouldDisableView">false</item>
+    </style>
+    <style name="Preference.Flyme.Light.CheckBox" parent="@style/Preference.Flyme.Light">
+        <item name="android:widgetLayout">@layout/mz_preference_widget_checkbox</item>
+    </style>
+    <style name="Preference.Flyme.Light.DialogPreference" parent="@style/Preference.Flyme.Light">
+        <item name="android:widgetLayout">@layout/mz_preference_dialog</item>
+        <item name="android:positiveButtonText">@android:string/ok</item>
+        <item name="android:negativeButtonText">@android:string/cancel</item>
+    </style>
+    <style name="Preference" />
+    <style name="Preference.Flyme" parent="@style/Preference">
+        <item name="android:layout">@layout/mz_preference</item>
+    </style>
+    <style name="Preference.Flyme.Light" parent="@style/Preference.Flyme" />
+    <style name="Widget.Flyme.Light.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/mz_preference_category_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/mz_secondary_text_color_light</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:background">@drawable/mz_list_group_divider_light</item>
+        <item name="android:paddingTop">@dimen/mz_preference_category_padding_top</item>
+        <item name="android:paddingBottom">@dimen/mz_preference_category_padding_bottom</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/mz_preference_category_mini_height</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.Flyme.Light.CompoundButton.RadioButton" parent="@android:style/Widget.DeviceDefault.Light.CompoundButton.RadioButton">
+        <item name="android:background">@null</item>
+        <item name="android:minWidth">20.0dip</item>
+        <item name="android:minHeight">16.0dip</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Search.Icon.White" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_search_white</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Clear.Icon.White" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_delete_white</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Voice.Icon.White" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_voice_white</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Search.Icon.Black" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_search_black</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Clear.Icon.Black" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_delete_black</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.Voice.Icon.Black" parent="">
+        <item name="android:background">@drawable/mz_titlebar_search_layout_ic_voice_black</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.SearchEditText.Black" parent="@android:style/Widget.DeviceDefault.Light.EditText">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">?mzColorActionBarTextPrimary</item>
+        <item name="android:textColorHint">@color/mz_action_bar_search_text_color_hint_white</item>
+        <item name="android:background">@drawable/mz_search_view_textfield_hover_default</item>
+    </style>
+    <style name="TextAppearance.Flyme.EditText.Search.White" parent="@style/TextAppearance.Flyme.Light">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">?mzColorActionBarTextPrimary</item>
+        <item name="android:textColorHint">@color/mz_action_bar_search_text_color_hint_white</item>
+    </style>
+    <style name="Animation.Flyme.Dialog.ShowAtBottom" parent="@style/Animation.Flyme.AppCompat.Dialog.ShowAtBottom" />
+    <style name="Animation.Flyme.Dialog.Alert" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_dialog_alert_anim_enter</item>
+        <item name="android:windowExitAnimation">@anim/mz_dialog_alert_anim_exit</item>
+    </style>
+    <style name="Widget.Flyme.Button.ButtonBar.AlertDialog" parent="@style/Widget.Flyme.Light.Button.Borderless.AlertDialog">
+        <item name="android:textColor">@color/mz_buttonbar_color</item>
+    </style>
+    <style name="Widget.Flyme.Light.EditText.SearchEditText" parent="@android:style/Widget.DeviceDefault.Light.EditText">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">?mzColorActionBarTextPrimary</item>
+        <item name="android:textColorHighlight">@color/mz_search_edit_text_light</item>
+        <item name="android:textColorHint">@color/mz_action_bar_search_text_color_hint</item>
+        <item name="android:background">?mzActionBarSearchViewBackground</item>
+        <item name="android:textSelectHandleLeft">@drawable/mz_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/mz_text_select_handle_right</item>
+        <item name="android:textCursorDrawable">@drawable/mz_search_text_cursor_white</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionBar" parent="">
+        <item name="android:gravity">center_vertical</item>
+        <item name="height">?actionBarSize</item>
+        <item name="displayOptions">showTitle</item>
+        <item name="titleTextStyle">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="divider">?dividerVertical</item>
+        <item name="background">@null</item>
+        <item name="backgroundStacked">@null</item>
+        <item name="backgroundSplit">@null</item>
+        <item name="popupTheme">?actionBarPopupTheme</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ActionBar" parent="@style/Widget.Flyme.AppCompat.ActionBar">
+        <item name="actionOverflowButtonStyle">@style/Widget.Flyme.Light.ActionButton.Overflow</item>
+        <item name="actionButtonStyle">@style/Widget.Flyme.Light.ActionButton</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ActionBar.Solid" parent="@style/Widget.Flyme.AppCompat.Light.ActionBar">
+        <item name="background">@drawable/mz_titlebar_background_bottom_blank</item>
+        <item name="backgroundStacked">@null</item>
+        <item name="backgroundSplit">@drawable/mz_smartbar_background</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ActionBar.Split" parent="@style/Widget.Flyme.AppCompat.Light.ActionBar.Solid">
+        <item name="height">@dimen/mz_action_bar_default_height_appcompat_split</item>
+    </style>
+    <style name="ThemeOverlay.Flyme.AppCompat.ActionBar" parent="">
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+    </style>
+    <style name="Base.Widget.Flyme.AppCompat.ActionButton" parent="@style/Widget.Flyme.Light.ActionButton">
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?actionBarItemBackground</item>
+        <item name="android:paddingLeft">5.0dip</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/mz_action_button_min_width_appcompat</item>
+        <item name="android:minHeight">@dimen/mz_action_button_min_height_appcompat</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionButton" parent="@style/Base.Widget.Flyme.AppCompat.ActionButton" />
+    <style name="Widget.Flyme.AppCompat.ActionButton.Split" parent="@style/Widget.Flyme.AppCompat.ActionButton">
+        <item name="android:minHeight">@dimen/mz_action_button_min_height_appcompat_split</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ActionButton" parent="@style/Widget.Flyme.AppCompat.ActionButton" />
+    <style name="Widget.Flyme.AppCompat.ActionButton.Overflow" parent="@style/Widget.Flyme.AppCompat.ActionButton" />
+    <style name="Widget.Flyme.AppCompat.Light.ActionButton.Overflow" parent="@style/Widget.Flyme.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/mz_titlebar_ic_more</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ActionButton.Overflow.Split" parent="@style/Widget.Flyme.AppCompat.ActionButton.Split">
+        <item name="android:src">@drawable/mz_ic_sb_more</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ListPopupWindow" parent="">
+        <item name="android:dropDownSelector">?listChoiceBackgroundIndicator</item>
+        <item name="android:popupBackground">@drawable/mz_dialog_full_light_bg</item>
+        <item name="android:dropDownWidth">wrap_content</item>
+        <item name="android:dropDownHorizontalOffset">0.0dip</item>
+        <item name="android:dropDownVerticalOffset">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ListPopupWindow" parent="@style/Widget.Flyme.Light.ListPopupWindow" />
+    <style name="Widget.Flyme.AppCompat.ActionMode" parent="">
+        <item name="height">?actionBarSize</item>
+        <item name="titleTextStyle">@style/TextAppearance.Flyme.AppCompat.Widget.ActionMode.Title</item>
+        <item name="subtitleTextStyle">@style/TextAppearance.Flyme.AppCompat.Widget.ActionMode.Subtitle</item>
+        <item name="background">?actionModeBackground</item>
+        <item name="backgroundSplit">?actionModeSplitBackground</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Title" parent="@style/TextAppearance.Flyme.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+        <item name="android:textColor">?mzColorActionBarTextPrimary</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Subtitle" parent="@style/TextAppearance.Flyme.Widget.ActionBar.Subtitle" />
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionMode.Title" parent="@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Title" />
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionMode.Subtitle" parent="@style/TextAppearance.Flyme.Widget.ActionBar.Subtitle" />
+    <style name="Widget.Flyme.AppCompat.Toolbar" parent="@android:style/Widget">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:minHeight">?actionBarSize</item>
+        <item name="contentInsetStart">@dimen/mz_toolbar_content_inset</item>
+        <item name="contentInsetEnd">@dimen/mz_toolbar_content_inset</item>
+        <item name="titleTextAppearance">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Subtitle</item>
+        <item name="titleMargins">0.0dip</item>
+        <item name="titleMarginStart">@dimen/mz_toolbar_title_margin_left</item>
+        <item name="titleMarginEnd">15.0dip</item>
+        <item name="maxButtonHeight">@dimen/mz_action_bar_default_height_appcompat</item>
+        <item name="collapseIcon">?homeAsUpIndicator</item>
+        <item name="mzButtonGravity">center_vertical</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionBar.TabBar" parent="">
+        <item name="android:layout_marginLeft">30.0dip</item>
+        <item name="android:layout_marginRight">24.0dip</item>
+        <item name="divider">?actionBarDivider</item>
+        <item name="measureWithLargestChild">false</item>
+        <item name="showDividers">middle</item>
+        <item name="dividerPadding">8.0dip</item>
+        <item name="mzTabBarIndicatorDrawable">@drawable/mz_action_bar_tab_indicator</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionBar.TabView" parent="">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">27.0dip</item>
+        <item name="android:paddingRight">27.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionBar.TabText" parent="">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Small</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">?mzColorActionBarTextPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:maxWidth">180.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Toolbar.TabView" parent="@style/Widget.Flyme.AppCompat.ActionBar.TabView">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingLeft">15.0dip</item>
+        <item name="android:paddingRight">15.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Toolbar.TabText" parent="@style/Widget.Flyme.AppCompat.ActionBar.TabText">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Medium</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu" parent="@style/TextAppearance.Flyme.Widget.ActionBar.Menu">
+        <item name="android:textColor">?actionMenuTextColor</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.Split" parent="@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/mz_text_size_medium</item>
+        <item name="android:textColor">@color/mz_appcompat_split_action_menu_textcolor</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.WithIcon" parent="@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">@dimen/mz_text_size_mini</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.WithIcon.Split" parent="@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.WithIcon">
+        <item name="android:textColor">@color/mz_appcompat_split_action_menu_textcolor</item>
+    </style>
+    <style name="Base.Widget.Flyme.AppCompat.Light.PopupMenu" parent="@style/Widget.Flyme.Light.ListPopupWindow" />
+    <style name="Base.Widget.Flyme.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.Flyme.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/mz_popup_bg_light</item>
+        <item name="android:dropDownHorizontalOffset">-7.0dip</item>
+        <item name="android:dropDownVerticalOffset">7.0dip</item>
+        <item name="android:popupAnimationStyle">@style/Animation.Flyme.AppCompat.Overflow.Popup</item>
+        <item name="overlapAnchor">false</item>
+        <item name="mzDividerPaddingStart">12.0dip</item>
+        <item name="mzDividerPaddingEnd">12.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.PopupMenu.Overflow" parent="@style/Base.Widget.Flyme.AppCompat.Light.PopupMenu.Overflow" />
+    <style name="Widget.Flyme.AppCompat.Light.PopupMenu.Overflow.Split" parent="@style/Widget.Flyme.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:popupAnimationStyle">@style/Animation.Flyme.AppCompat.Overflow.Popup.Split</item>
+    </style>
+    <style name="Base.Widget.Flyme.AppCompat.ListView.DropDown" parent="@style/Widget.Flyme.ListView.DropDown">
+        <item name="android:listSelector">?listChoiceBackgroundIndicator</item>
+        <item name="android:divider">?android:listDivider</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ListView.DropDown" parent="@style/Base.Widget.Flyme.AppCompat.ListView.DropDown">
+        <item name="android:overScrollMode">never</item>
+    </style>
+    <style name="Base.Widget.Flyme.AppCompat.Toolbar.Button.Navigation" parent="@android:style/Widget">
+        <item name="android:background">?selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:minWidth">@dimen/mz_action_button_min_width_appcompat</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Toolbar.Button.Navigation" parent="@style/Base.Widget.Flyme.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:paddingLeft">10.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionBar.TabScrollView" parent="">
+        <item name="mzTopDividerColor">@color/mz_action_bar_scrollview_divider_default_color</item>
+        <item name="mzTopDividerHeight">@dimen/mz_action_bar_tab_scroll_top_divider_height</item>
+    </style>
+    <style name="Flyme.AlertDialog.AppCompat.Light" parent="@android:style/Widget">
+        <item name="android:layout">@layout/mz_alert_dialog_appcompat</item>
+        <item name="listLayout">@layout/mz_select_dialog_appcompat</item>
+        <item name="multiChoiceItemLayout">@layout/mz_select_dialog_multichoice</item>
+        <item name="singleChoiceItemLayout">@layout/mz_select_dialog_singlechoice</item>
+        <item name="listItemLayout">@layout/mz_select_dialog_item</item>
+        <item name="listItem_showCentreLayout">@layout/mz_select_dialog_item_centre</item>
+    </style>
+    <style name="Flyme.AlertDialog.AppCompat.Light.ShowAtBottom" parent="@style/Flyme.AlertDialog.AppCompat.Light">
+        <item name="mzShowAtBottom">true</item>
+    </style>
+    <style name="Flyme.AlertDialog.AppCompat.Light.MzButtonBarVertical" parent="@style/Flyme.AlertDialog.AppCompat.Light">
+        <item name="mzButtonBarOrientation">vertical</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.ButtonBar.AlertDialog" parent="">
+        <item name="android:divider">@drawable/mz_popup_divider_line</item>
+        <item name="android:dividerPadding">0.0dip</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.Light.Button.Borderless.AlertDialog" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textSize">@dimen/mz_text_size_normal</item>
+        <item name="android:textColor">@color/mz_button_positive_text_default</item>
+        <item name="android:padding">0.0dip</item>
+        <item name="android:minHeight">@dimen/mz_alert_dialog_button_bar_height</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="Animation.Flyme.AppCompat.Dialog.ShowAtBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_slide_in_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/mz_slide_out_from_bottom</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionButtonRipple" parent="">
+        <item name="mzRippleColor">#0c000000</item>
+        <item name="mzStartRadius">0.0dip</item>
+        <item name="mzMaxRadius">0.0dip</item>
+        <item name="mzUseFadeOut">true</item>
+        <item name="mzRippleFade">true</item>
+        <item name="mzShrink">false</item>
+        <item name="mzInDuration">300</item>
+        <item name="mzAutoLightBackground">true</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionButtonRipple.White" parent="@style/Widget.Flyme.AppCompat.ActionButtonRipple">
+        <item name="mzRippleColor">#1cffffff</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionButtonRipple.Split" parent="@style/Widget.Flyme.AppCompat.ActionButtonRipple">
+        <item name="mzRippleColor">#0c000000</item>
+        <item name="mzStartRadius">33.0dip</item>
+        <item name="mzMaxRadius">40.0dip</item>
+        <item name="mzUseFadeOut">true</item>
+        <item name="mzRippleFade">true</item>
+        <item name="mzShrink">true</item>
+        <item name="mzInDuration">120</item>
+        <item name="mzAutoLightBackground">false</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.ActionButtonRipple.Split.White" parent="@style/Widget.Flyme.AppCompat.ActionButtonRipple.Split">
+        <item name="mzRippleColor">#1cffffff</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.RippleDefaultStyle" parent="">
+        <item name="mzRippleColor">#10000000</item>
+        <item name="mzUseFadeOut">true</item>
+        <item name="mzRippleFade">true</item>
+        <item name="mzInDuration">120</item>
+        <item name="mzAutoLightBackground">false</item>
+    </style>
+    <style name="V7.Widget.AppCompat.Button.ButtonBar.AlertDialog" parent="@style/Widget.Flyme.AppCompat.Light.Button.Borderless.AlertDialog">
+        <item name="android:textColor">@color/mz_buttonbar_color</item>
+    </style>
+    <style name="TextAppearance.Flyme.AppCompat.Widget.MultiChoiceVew.Item" parent="@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu" />
+    <style name="Widget.Flyme.AppCompat.Light.TabContainerCollapseButton" parent="">
+        <item name="android:src">@drawable/mz_titlebar_ic_tab_unfold</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:minWidth">54.0dip</item>
+    </style>
+    <style name="Animation.Flyme.AppCompat.Overflow.Popup" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_overflow_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/mz_overflow_popup_exit</item>
+    </style>
+    <style name="Animation.Flyme.AppCompat.Overflow.Popup.Split" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/mz_overflow_popup_enter_split</item>
+        <item name="android:windowExitAnimation">@anim/mz_overflow_popup_exit_split</item>
+    </style>
+    <style name="Widget.Flyme.AppCompat.MultiChoiceView.Item" parent="@style/Widget.Flyme.AppCompat.ActionButton">
+        <item name="android:paddingLeft">19.0dip</item>
+        <item name="android:paddingRight">19.0dip</item>
+    </style>
+    <style name="Theme.Flyme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Flyme.Inverse</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Flyme.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Flyme.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Flyme.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Flyme.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Flyme.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Flyme.Small.Inverse</item>
+        <item name="android:windowBackground">@drawable/mz_background_dark</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Flyme.ListView.DropDown</item>
+        <item name="android:textSelectHandleLeft">@drawable/mz_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/mz_text_select_handle_right</item>
+        <item name="android:dialogTheme">@style/Theme.Flyme.Dialog</item>
+        <item name="android:editTextBackground">@drawable/mz_edit_text_background</item>
+        <item name="android:alertDialogIcon">@drawable/mz_ic_popup_caution</item>
+        <item name="android:textCursorDrawable">@drawable/mz_text_cursor_dark</item>
+        <item name="android:actionModeStyle">@style/Widget.Flyme.Light.ActionMode</item>
+        <item name="mzDialogEditTextStyle">@style/Widget.Flyme.EditText.Dialog</item>
+        <item name="isThemeDeviceDefault">true</item>
+    </style>
+    <style name="Theme.Flyme.NoActionBar" parent="@style/Theme.Flyme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Flyme.NoActionBar.Fullscreen" parent="@style/Theme.Flyme.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Flyme.Dialog" parent="@android:style/Theme.DeviceDefault.Dialog" />
+    <style name="Base.Theme.Flyme.Light" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Light</item>
+        <item name="android:textAppearanceInverse">@style/TextAppearance.Flyme.Light.Inverse</item>
+        <item name="android:textColorPrimary">@color/mz_primary_text_light</item>
+        <item name="android:textColorSecondary">@color/mz_secondary_text_light</item>
+        <item name="android:textAppearanceLarge">@style/TextAppearance.Flyme.Light.Large</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Flyme.Light.Medium</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Flyme.Light.Small</item>
+        <item name="android:textAppearanceLargeInverse">@style/TextAppearance.Flyme.Light.Large.Inverse</item>
+        <item name="android:textAppearanceMediumInverse">@style/TextAppearance.Flyme.Light.Medium.Inverse</item>
+        <item name="android:textAppearanceSmallInverse">@style/TextAppearance.Flyme.Light.Small.Inverse</item>
+        <item name="android:buttonStyle">@style/Widget.Flyme.Light.Button</item>
+        <item name="android:listPreferredItemHeight">@dimen/mz_list_item_height</item>
+        <item name="android:windowBackground">@drawable/mz_background_light</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:panelBackground">@drawable/mz_option_menu_background</item>
+        <item name="android:scrollbarThumbHorizontal">@drawable/mz_scrollbar_handle_horizontal</item>
+        <item name="android:scrollbarThumbVertical">@drawable/mz_scrollbar_handle_vertical</item>
+        <item name="android:autoCompleteTextViewStyle">@style/Widget.Flyme.Light.AutoCompleteTextView</item>
+        <item name="android:checkboxStyle">@style/Widget.Flyme.Light.CompoundButton.CheckBox</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Flyme.ListView.DropDown</item>
+        <item name="android:popupWindowStyle">@style/Widget.Flyme.Light.PopupWindow</item>
+        <item name="android:progressBarStyle">@style/Widget.Flyme.Light.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@style/Widget.Flyme.Light.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@style/Widget.Flyme.Light.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@style/Widget.Flyme.Light.ProgressBar.Large</item>
+        <item name="android:seekBarStyle">@style/Widget.Flyme.Light.SeekBar</item>
+        <item name="android:ratingBarStyle">@style/Widget.Flyme.Light.RatingBar</item>
+        <item name="android:radioButtonStyle">@style/Widget.Flyme.Light.CompoundButton.RadioButton</item>
+        <item name="android:preferenceScreenStyle">@style/Preference.Flyme.Light.PreferenceScreen</item>
+        <item name="android:preferenceCategoryStyle">@style/Preference.Flyme.Light.PreferenceCategory</item>
+        <item name="android:preferenceStyle">@style/Preference.Flyme.Light</item>
+        <item name="android:checkBoxPreferenceStyle">@style/Preference.Flyme.Light.CheckBox</item>
+        <item name="android:dialogPreferenceStyle">@style/Preference.Flyme.Light.DialogPreference</item>
+        <item name="android:textColorHighlight">@color/mz_highlighted_text_light</item>
+        <item name="android:textColorHint">@color/mz_hint_foreground_light</item>
+        <item name="android:textColorLink">@color/mz_foreground_hight_light</item>
+        <item name="android:listSeparatorTextViewStyle">@style/Widget.Flyme.Light.ListSeparator</item>
+        <item name="android:listDivider">@drawable/mz_list_divider_light</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/mz_btn_check_single</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/mz_btn_check_multiple</item>
+        <item name="android:textSelectHandleLeft">@drawable/mz_text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/mz_text_select_handle_right</item>
+        <item name="android:actionBarStyle">@style/Widget.Flyme.Light.ActionBar</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.Flyme.Light.Spinner.DropDown</item>
+        <item name="android:actionDropDownStyle">@style/Widget.Flyme.Light.Spinner.DropDown.ActionBar</item>
+        <item name="android:actionButtonStyle">@style/Widget.Flyme.Light.ActionButton</item>
+        <item name="android:actionModeBackground">@null</item>
+        <item name="android:actionBarSize">@dimen/mz_action_bar_default_height</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/mz_list_selector_background</item>
+        <item name="android:actionBarTabStyle">@style/Widget.Flyme.Light.ActionBar.TabView</item>
+        <item name="android:actionBarTabBarStyle">@style/Widget.Flyme.Light.ActionBar.TabBar</item>
+        <item name="android:actionBarTabTextStyle">@style/Widget.Flyme.Light.ActionBar.TabText</item>
+        <item name="android:actionOverflowButtonStyle">@style/Widget.Flyme.Light.ActionButton.Overflow</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/mz_activated_background</item>
+        <item name="android:listPopupWindowStyle">@style/Widget.Flyme.AppCompat.Light.ListPopupWindow</item>
+        <item name="android:popupMenuStyle">@style/Widget.Flyme.Light.PopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.Flyme.Light.Widget.PopupMenu.Large</item>
+        <item name="android:listDividerAlertDialog">@drawable/mz_list_divider_light</item>
+        <item name="android:textColorAlertDialogListItem">@color/mz_dialog_checked_text</item>
+        <item name="android:dialogTheme">@style/Theme.Flyme.Light.Dialog</item>
+        <item name="android:homeAsUpIndicator">@null</item>
+        <item name="android:selectableItemBackground">@drawable/mz_item_background</item>
+        <item name="android:fastScrollThumbDrawable">@drawable/mz_fastscroll_thumb</item>
+        <item name="android:fastScrollPreviewBackgroundLeft">@drawable/mz_abc_zoom_background</item>
+        <item name="android:fastScrollPreviewBackgroundRight">@drawable/mz_abc_zoom_background</item>
+        <item name="android:fastScrollTrackDrawable">@drawable/mz_fastscroll_track_default</item>
+        <item name="android:fastScrollOverlayPosition">floating</item>
+        <item name="android:textColorHighlightInverse">@color/mz_highlighted_text_dark</item>
+        <item name="android:editTextBackground">@drawable/mz_edit_text_background</item>
+        <item name="android:fastScrollTextColor">#ff3d3e40</item>
+        <item name="android:actionMenuTextAppearance">@style/TextAppearance.Flyme.Widget.ActionBar.Menu</item>
+        <item name="android:actionMenuTextColor">@color/mz_action_menu_textcolor</item>
+        <item name="android:listPreferredItemHeightLarge">@dimen/mz_list_item_height_large</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/mz_list_item_height_small</item>
+        <item name="android:actionModeStyle">@style/Widget.Flyme.Light.ActionMode</item>
+        <item name="android:actionBarDivider">@null</item>
+        <item name="android:actionBarItemBackground">@drawable/mz_menuitem_background</item>
+        <item name="android:actionModeSplitBackground">@null</item>
+        <item name="android:textAppearanceListItemSmall">?android:textAppearanceMedium</item>
+        <item name="android:listPreferredItemPaddingLeft">@dimen/mz_list_item_content_padding_left</item>
+        <item name="android:listPreferredItemPaddingRight">@dimen/mz_list_item_content_padding_right</item>
+        <item name="mzDialogEditTextStyle">@style/Widget.DeviceDefault.Light.EditText.Dialog</item>
+        <item name="isThemeDeviceDefault">true</item>
+        <item name="isThemeLight">true</item>
+        <item name="mzThemeColor">@color/mz_theme_color_default</item>
+        <item name="mzSearchEditTextStyle">@style/Widget.Flyme.Light.EditText.SearchEditText</item>
+        <item name="mzSearchEditSearchIconStyle">@style/Widget.Flyme.Light.EditText.Search.Icon.White</item>
+        <item name="mzSearchEditClearIconStyle">@style/Widget.Flyme.Light.EditText.Clear.Icon.White</item>
+        <item name="mzSearchEditVoiceIconStyle">@style/Widget.Flyme.Light.EditText.Voice.Icon.White</item>
+    </style>
+    <style name="Theme.Flyme.Light" parent="@style/Base.Theme.Flyme.Light" />
+    <style name="Theme.Flyme.Light.NoActionBar" parent="@style/Theme.Flyme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Theme.Flyme.Light.NoActionBar.Fullscreen" parent="@style/Theme.Flyme.Light.NoActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.Flyme.Light.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog" />
+    <style name="Base.Theme.Flyme.Light.Dialog.Alert" parent="@style/Theme.Flyme.Light.Dialog">
+        <item name="android:textAppearance">@style/TextAppearance.Flyme.Light</item>
+        <item name="android:textAppearanceMedium">@style/TextAppearance.Flyme.Light.Medium.AlertDialog</item>
+        <item name="android:textAppearanceSmall">@style/TextAppearance.Flyme.Light.Small.AlertDialog</item>
+        <item name="android:windowBackground">@drawable/mz_dialog_background_material</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Flyme.Light</item>
+        <item name="android:scrollbarThumbVertical">@drawable/mz_scrollbar_handle_vertical</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Flyme.Light.ListView.DropDown</item>
+        <item name="android:expandableListViewStyle">@android:style/Widget.DeviceDefault.Light.ExpandableListView</item>
+        <item name="android:listViewStyle">@android:style/Widget.DeviceDefault.Light.ListView.DropDown</item>
+        <item name="android:listViewWhiteStyle">@android:style/Widget.DeviceDefault.Light.ListView.DropDown</item>
+        <item name="android:popupWindowStyle">@style/Widget.Flyme.Light.PopupWindow</item>
+        <item name="android:progressBarStyle">@style/Widget.Flyme.Light.ProgressBar</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Flyme.Dialog.Alert</item>
+        <item name="android:itemTextAppearance">?android:textAppearanceMedium</item>
+        <item name="android:listChoiceIndicatorSingle">@drawable/mz_btn_check_single</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/mz_btn_check_multiple</item>
+        <item name="android:expandableListViewWhiteStyle">@android:style/Widget.DeviceDefault.Light.ExpandableListView</item>
+        <item name="android:dropDownSpinnerStyle">@style/Widget.Flyme.Light.Spinner.DropDown</item>
+        <item name="android:listChoiceBackgroundIndicator">@drawable/mz_list_selector_background</item>
+        <item name="android:listDividerAlertDialog">@drawable/mz_new_list_line</item>
+        <item name="android:textColorAlertDialogListItem">@color/mz_dialog_checked_text</item>
+        <item name="android:dialogTheme">@style/Theme.Flyme.Light.Dialog</item>
+        <item name="android:dividerVertical">@drawable/mz_popup_divider_line</item>
+        <item name="android:buttonBarStyle">@style/Flyme.Light.ButtonBar.AlertDialog</item>
+        <item name="android:buttonBarButtonStyle">@style/Widget.Flyme.Light.Button.Borderless.AlertDialog</item>
+        <item name="android:windowMinWidthMajor">33.0dip</item>
+        <item name="android:windowMinWidthMinor">33.0dip</item>
+        <item name="android:listPreferredItemHeightSmall">@dimen/mz_list_item_height_small</item>
+        <item name="android:textAppearanceListItem">?android:textAppearanceMedium</item>
+        <item name="android:textAppearanceListItemSmall">?android:textAppearanceSmall</item>
+        <item name="mzDialogEditTextStyle">@style/Widget.DeviceDefault.Light.EditText.Dialog</item>
+        <item name="mzThemeColor">#ff32a5e7</item>
+    </style>
+    <style name="Theme.Flyme.Light.Dialog.Alert" parent="@style/Base.Theme.Flyme.Light.Dialog.Alert" />
+    <style name="Theme.Flyme.Light.Dialog.NoActionBar" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar" />
+    <style name="Theme.Flyme.Dialog.NoFrame" parent="@style/Theme.Flyme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="Theme.Flyme.NoTitleBar.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:progressBarStyle">@android:style/Widget.DeviceDefault.ProgressBar</item>
+        <item name="android:progressBarStyleHorizontal">@android:style/Widget.DeviceDefault.ProgressBar.Horizontal</item>
+        <item name="android:progressBarStyleSmall">@android:style/Widget.DeviceDefault.ProgressBar.Small</item>
+        <item name="android:progressBarStyleLarge">@android:style/Widget.DeviceDefault.ProgressBar.Large</item>
+        <item name="android:progressBarStyleSmallTitle">@android:style/Widget.DeviceDefault.ProgressBar.Small.Title</item>
+    </style>
+    <style name="Platform.Flyme.AppCompat.Light" parent="@style/Theme.Flyme.Light" />
+    <style name="Base.Theme.Flyme.AppCompat.Light" parent="@style/Platform.Flyme.AppCompat.Light" />
+    <style name="Theme.Flyme.AppCompat.Light" parent="@style/Base.Theme.Flyme.AppCompat.Light">
+        <item name="actionBarTabStyle">@style/Widget.Flyme.AppCompat.ActionBar.TabView</item>
+        <item name="actionBarTabBarStyle">@style/Widget.Flyme.AppCompat.ActionBar.TabBar</item>
+        <item name="actionBarTabTextStyle">@style/Widget.Flyme.AppCompat.ActionBar.TabText</item>
+        <item name="mzToolBarTabStyle">@style/Widget.Flyme.AppCompat.Toolbar.TabView</item>
+        <item name="mzToolBarTabTextStyle">@style/Widget.Flyme.AppCompat.Toolbar.TabText</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.Flyme.AppCompat.Light.ActionButton.Overflow</item>
+        <item name="actionOverflowMenuStyle">@style/Widget.Flyme.AppCompat.Light.PopupMenu.Overflow</item>
+        <item name="actionBarStyle">@style/Widget.Flyme.AppCompat.Light.ActionBar.Solid</item>
+        <item name="actionBarSplitStyle">@style/Widget.Flyme.AppCompat.Light.ActionBar.Split</item>
+        <item name="actionBarSize">@dimen/mz_action_bar_default_height_appcompat</item>
+        <item name="actionBarDivider">@null</item>
+        <item name="actionMenuTextAppearance">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu</item>
+        <item name="actionMenuTextColor">?mzColorActionBarTextPrimary</item>
+        <item name="actionModeStyle">@style/Widget.Flyme.AppCompat.ActionMode</item>
+        <item name="actionModeBackground">@null</item>
+        <item name="actionModeSplitBackground">@null</item>
+        <item name="dropdownListPreferredItemHeight">48.0dip</item>
+        <item name="homeAsUpIndicator">@drawable/mz_titlebar_ic_back</item>
+        <item name="actionButtonStyle">@style/Widget.Flyme.AppCompat.ActionButton</item>
+        <item name="toolbarStyle">@style/Widget.Flyme.AppCompat.Toolbar</item>
+        <item name="toolbarNavigationButtonStyle">@style/Widget.Flyme.AppCompat.Toolbar.Button.Navigation</item>
+        <item name="dropDownListViewStyle">@style/Widget.Flyme.AppCompat.Light.ListView.DropDown</item>
+        <item name="listPopupWindowStyle">@style/Widget.Flyme.Light.ListPopupWindow</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="alertDialogStyle">@style/Flyme.AlertDialog.AppCompat.Light</item>
+        <item name="alertDialogTheme">@style/Theme.Flyme.AppCompat.Light.Dialog.Alert</item>
+        <item name="editTextStyle">?android:editTextStyle</item>
+        <item name="mzActionMenuTextAppearanceWithIcon">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.WithIcon</item>
+        <item name="mzColorActionBarTextPrimary">@color/mz_appcompat_action_menu_textcolor</item>
+        <item name="mzMultiChoiceViewStyle">@style/Widget.Flyme.AppCompat.ActionMode</item>
+        <item name="mzActionBarTabScrollViewStyle">@style/Widget.Flyme.AppCompat.ActionBar.TabScrollView</item>
+        <item name="mzActionMenuTextAppearanceWithIconSplit">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.WithIcon.Split</item>
+        <item name="mzActionOverflowButtonSplitStyle">@style/Widget.Flyme.AppCompat.Light.ActionButton.Overflow.Split</item>
+        <item name="mzActionMenuTextAppearanceSplit">@style/TextAppearance.Flyme.AppCompat.Widget.ActionBar.Menu.Split</item>
+        <item name="mzActionBarSearchViewBackground">@drawable/mz_search_view_textfield_hover_default</item>
+        <item name="mzMultiChoiceViewItemTextAppearance">@style/TextAppearance.Flyme.AppCompat.Widget.MultiChoiceVew.Item</item>
+        <item name="mzMultiChoiceViewItemStyle">@style/Widget.Flyme.AppCompat.MultiChoiceView.Item</item>
+        <item name="mzActionButtonRippleStyle">@style/Widget.Flyme.AppCompat.ActionButtonRipple</item>
+        <item name="mzActionButtonRippleSplitStyle">@style/Widget.Flyme.AppCompat.ActionButtonRipple.Split</item>
+        <item name="mzRippleDefaultStyle">@style/Widget.Flyme.AppCompat.RippleDefaultStyle</item>
+        <item name="mzActionButtonSplitStyle">@style/Widget.Flyme.AppCompat.ActionButton.Split</item>
+        <item name="mzTabContainerCollapseButtonStyle">@style/Widget.Flyme.AppCompat.Light.TabContainerCollapseButton</item>
+        <item name="mzActionOverflowMenuSplitStyle">@style/Widget.Flyme.AppCompat.Light.PopupMenu.Overflow.Split</item>
+    </style>
+    <style name="V7Overlay.Theme.AppCompat.Light.Dialog" parent="@style/Theme.Flyme.AppCompat.Light" />
+    <style name="Base.Theme.Flyme.AppCompat.Light.Dialog" parent="@style/V7Overlay.Theme.AppCompat.Light.Dialog" />
+    <style name="Theme.Flyme.AppCompat.Light.Dialog" parent="@style/Base.Theme.Flyme.AppCompat.Light.Dialog" />
+    <style name="Theme.Flyme.AppCompat.Light.Dialog.Alert" parent="@style/Theme.Flyme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/mz_dialog_background_material</item>
+        <item name="android:windowTitleStyle">@style/DialogWindowTitle.Flyme.Light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Flyme.Dialog.Alert</item>
+        <item name="android:dividerVertical">@drawable/mz_popup_divider_line</item>
+        <item name="windowMinWidthMajor">@dimen/mz_alert_dialog_width</item>
+        <item name="windowMinWidthMinor">@dimen/mz_alert_dialog_width</item>
+        <item name="listDividerAlertDialog">@drawable/mz_new_list_line</item>
+        <item name="buttonBarStyle">@style/Widget.Flyme.AppCompat.Light.ButtonBar.AlertDialog</item>
+        <item name="buttonBarButtonStyle">@style/Widget.Flyme.Light.Button.Borderless.AlertDialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/V7.Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/V7.Widget.AppCompat.Button.ButtonBar.AlertDialog</item>
+        <item name="mzColorAlertListItemCenter">@color/mz_theme_color_default</item>
+    </style>
+    <style name="Theme.Flyme.AppCompat.Light.Dialog.Alert.ShowAtBottom" parent="@style/Theme.Flyme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@drawable/mz_dialog_background_show_at_bottom</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Flyme.AppCompat.Dialog.ShowAtBottom</item>
+        <item name="windowMinWidthMajor">100.0%</item>
+        <item name="windowMinWidthMinor">100.0%</item>
+        <item name="alertDialogStyle">@style/Flyme.AlertDialog.AppCompat.Light.ShowAtBottom</item>
+        <item name="mzColorAlertListItemCenter">@color/mz_theme_color_default</item>
+    </style>
+    <style name="Theme.Flyme.AppCompat.Light.Dialog.Alert.MzButtonBarVertical" parent="@style/Theme.Flyme.AppCompat.Light.Dialog.Alert">
+        <item name="alertDialogStyle">@style/Flyme.AlertDialog.AppCompat.Light.MzButtonBarVertical</item>
+    </style>
+    <style name="ResolverAnimationActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/mz_reso_anim_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/mz_reso_anim_exit</item>
+        <item name="android:activityCloseEnterAnimation">@anim/mz_reso_back_enter</item>
+        <item name="android:activityCloseExitAnimation">@anim/mz_reso_back_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/mz_reso_anim_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/mz_reso_anim_exit</item>
+        <item name="android:taskCloseEnterAnimation">@anim/mz_reso_back_enter</item>
+        <item name="android:taskCloseExitAnimation">@anim/mz_reso_back_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/mz_reso_anim_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/mz_reso_anim_exit</item>
+        <item name="android:taskToBackEnterAnimation">@anim/mz_reso_back_enter</item>
+        <item name="android:taskToBackExitAnimation">@anim/mz_reso_back_exit</item>
+    </style>
+    <style name="Theme.Flyme.Resolver" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/Widget.DeviceDefault.Light.ListView.Meizu.Partition</item>
+        <item name="android:windowAnimationStyle">@style/ResolverAnimationActivity</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffafafa" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/upgrade_logo" android:layout_width="wrap_content" android:layout_height="265.0dip" android:layout_marginTop="73.0dip" android:src="@drawable/ic_flyme_upgrading" />
+    <LinearLayout android:orientation="vertical" android:id="@id/upgrade_app" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="0.0dip">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/dex_opt_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dexopt_apps_title" android:singleLine="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/dex_opt_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dexopt_apps_apk" android:singleLine="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+        <View android:layout_width="wrap_content" android:layout_height="10.0dip" />
+        <ProgressBar android:id="@id/dex_opt_progressbar" android:layout_width="fill_parent" android:layout_height="6.0dip" android:layout_marginLeft="50.0dip" android:layout_marginRight="50.0dip" android:max="100" style="@*flyme:style/Widget.Flyme.Light.ProgressBar.Horizontal.BootAnim" />
+    </LinearLayout>
+</LinearLayout>

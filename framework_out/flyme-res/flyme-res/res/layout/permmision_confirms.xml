@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="392.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/mz_dialog_full_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="180.0dip">
+            <LinearLayout android:gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginStart="29.0dip" android:layout_marginEnd="29.0dip">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/event_icon" android:visibility="gone" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="fitCenter" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <com.android.internal.widget.DialogTitle android:textSize="16.0sp" android:ellipsize="end" android:gravity="left" android:id="@id/event_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="7.0dip" android:fontFamily="sans-serif" style="?android:attr/windowTitleStyle" />
+                    <TextView android:textSize="14.0sp" android:textColor="#7f000000" android:id="@id/event_content" android:paddingBottom="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:includeFontPadding="false" android:lineSpacingExtra="5.0dip" />
+                </LinearLayout>
+            </LinearLayout>
+            <CheckBox android:textSize="16.0sp" android:textColor="#cc000000" android:layout_gravity="left" android:id="@id/event_remember" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="31.0dip" android:checked="true" android:button="@drawable/btn_check" android:text="@string/remember_me" android:layout_marginStart="29.0dip" android:layout_marginEnd="29.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/buttonPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="?android:dividerVertical" android:minHeight="47.599976dip" android:showDividers="beginning" android:dividerPadding="0.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/buttonBarPanel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/mz_popup_divider_line" android:showDividers="middle" android:layoutDirection="locale" style="?attr/buttonBarStyle">
+                    <Button android:textSize="16.0sp" android:id="@id/reject" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/not_allow_check_app" android:layout_weight="1.0" style="?android:attr/buttonBarNeutralButtonStyle" />
+                    <Button android:textSize="16.0sp" android:textColor="#ff54ae56" android:id="@id/accept" android:layout_width="0.0px" android:layout_height="wrap_content" android:text="@string/allow_check_app" android:layout_weight="1.0" style="?android:attr/buttonBarPositiveButtonStyle" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

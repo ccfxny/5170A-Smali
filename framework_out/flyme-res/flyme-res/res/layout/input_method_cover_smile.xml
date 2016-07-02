@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.meizu.widget.inputmethod.SmileView android:id="@id/input_method_cover_view" android:layout_width="fill_parent" android:layout_height="wrap_content" flyme:emo_panel_width="@dimen/emo_panel_width" flyme:emo_panel_height="@dimen/emo_panel_height" flyme:emo_padding_left="@dimen/emo_padding_left" flyme:emo_padding_top="@dimen/emo_padding_top" flyme:emo_padding_right="@dimen/emo_padding_right" flyme:emo_padding_bottom="@dimen/emo_padding_bottom" flyme:emo_row_count="@integer/emo_row_count" flyme:emo_col_count="@integer/emo_col_count"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:flyme="http://schemas.android.com/apk/prv/res/flyme" />

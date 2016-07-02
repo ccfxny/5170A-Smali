@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="system_lock_top_display_group_height">52.0dip</dimen>
+    <dimen name="system_lock_top_display_group_margin_top">11.599976dip</dimen>
+    <dimen name="system_lock_tips_textsize">18.0sp</dimen>
+    <dimen name="system_lock_textpad_height">24.799988dip</dimen>
+    <dimen name="system_lock_textpad_margin_top">7.5999756dip</dimen>
+    <dimen name="system_lock_digit_view_width">327.1953dip</dimen>
+    <dimen name="system_lock_digit_view_height">321.59375dip</dimen>
+    <dimen name="system_lock_digit_view_margin_left">195.6dip</dimen>
+    <dimen name="emo_padding_left">24.0dip</dimen>
+    <dimen name="emo_padding_right">24.0dip</dimen>
+    <dimen name="emo_padding_top">0.0dip</dimen>
+    <dimen name="emo_padding_bottom">0.0dip</dimen>
+    <dimen name="emo_panel_height">240.0dip</dimen>
+    <dimen name="emo_panel_width">720.0dip</dimen>
+    <dimen name="action_bar_icon_vertical_padding">6.799988dip</dimen>
+    <dimen name="mz_list_item_padding_left">0.0dip</dimen>
+    <dimen name="mz_list_item_padding_right">0.0dip</dimen>
+    <dimen name="mz_alert_dialog_max_height">336.0dip</dimen>
+    <dimen name="mz_card_list_item_padding_left">0.0dip</dimen>
+    <dimen name="mz_card_list_item_padding_right">0.0dip</dimen>
+    <dimen name="mz_group_list_footer_height">30.399994dip</dimen>
+    <dimen name="mz_recipient_padding_left">14.0dip</dimen>
+    <dimen name="mz_recipient_padding_right">14.0dip</dimen>
+    <dimen name="system_lock_view_height">538.0dip</dimen>
+    <dimen name="system_lock_input_textsize">22.0sp</dimen>
+    <dimen name="system_lock_text_button_margin_right">288.39844dip</dimen>
+    <dimen name="system_lock_digit_view_margin_top">12.399994dip</dimen>
+    <dimen name="system_lock_return_btn_margin_left">18.399994dip</dimen>
+    <dimen name="system_lock_return_btn_margin_top">10.199982dip</dimen>
+</resources>

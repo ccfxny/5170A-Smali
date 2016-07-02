@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mz_globalaction_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mz_globalaction_buttons" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.internal.policy.impl.MzCustomCircleButton android:textSize="@dimen/mz_global_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mz_shutdown" android:background="@null" android:layout_width="@dimen/mz_global_button_diameter" android:layout_height="@dimen/mz_global_button_diameter" />
+        <View android:gravity="center" android:layout_width="@dimen/mz_global_button_gap" android:layout_height="@dimen/mz_global_button_gap" />
+        <com.android.internal.policy.impl.MzCustomCircleButton android:textSize="@dimen/mz_global_text_size" android:textColor="#ffffffff" android:gravity="center" android:id="@id/mz_restart" android:background="@null" android:layout_width="@dimen/mz_global_button_diameter" android:layout_height="@dimen/mz_global_button_diameter" />
+    </LinearLayout>
+</LinearLayout>

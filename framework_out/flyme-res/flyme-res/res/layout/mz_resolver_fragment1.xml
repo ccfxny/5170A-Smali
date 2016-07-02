@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/mz_resolver_frag1_content_panel" android:background="@drawable/mz_resolver_popup_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="25.0dip">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="#ff000000" android:gravity="center_horizontal" android:id="@id/mz_grid_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="28.0dip" android:layout_marginBottom="14.0dip" />
+    </LinearLayout>
+    <FrameLayout android:paddingBottom="@dimen/mz_resolve_content_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <GridView android:scrollbarStyle="outsideOverlay" android:gravity="center" android:id="@id/mz_resolver_grid_2" android:paddingLeft="@dimen/mz_resolve_grid_padding_left" android:paddingRight="@dimen/mz_resolve_grid_padding_right" android:clipToPadding="false" android:layout_width="@dimen/mz_resolve_grid_height" android:layout_height="wrap_content" android:listSelector="@drawable/mz_card_new_list_selector_background" android:verticalSpacing="12.0dip" android:numColumns="3" android:overScrollMode="never" android:nestedScrollingEnabled="true" />
+    </FrameLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="20.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/mz_check_bar" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_margin_left" android:paddingRight="@dimen/mz_resolve_grid_checkbox_margin_left" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/mz_resolve_grid_checkbox_height">
+            <View android:background="@color/mz_global_bg_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_weight="0.0" />
+            <CheckBox android:textSize="@dimen/mz_resolve_checkbox_text_size" android:textColor="@color/mz_8e_alpha_black_color" android:id="@id/mz_alwaysUse" android:background="@null" android:paddingLeft="@dimen/mz_resolve_grid_checkbox_padding_left" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/mz_resolve_grid_checkbox_padding_left" android:layout_weight="1.0" style="@flyme:style/Widget.Flyme.Light.CompoundButton.CheckBox" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

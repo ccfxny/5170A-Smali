@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="system_ringtone_name_list">
+        <item>鋼琴</item>
+        <item>數碼</item>
+        <item>Flyme</item>
+        <item>音樂盒</item>
+        <item>科技</item>
+        <item>吉他</item>
+        <item>馬林巴琴</item>
+        <item>淘氣</item>
+        <item>水晶</item>
+        <item>前進</item>
+        <item>貓的一家</item>
+        <item>清晨的旋律</item>
+        <item>愛的呼喚</item>
+        <item>不倒翁</item>
+        <item>啟程</item>
+        <item>新生活</item>
+        <item>心跳</item>
+        <item>東岸往事</item>
+        <item>華爾茲</item>
+        <item>指揮家</item>
+        <item>熱情</item>
+        <item>旅途</item>
+        <item>競技</item>
+        <item>雨紛飛</item>
+        <item>暮光之舞</item>
+        <item>拂曉</item>
+        <item>家</item>
+        <item>布魯斯</item>
+        <item>衝刺</item>
+        <item>機械鈴聲</item>
+        <item>電話</item>
+        <item>傳呼機</item>
+        <item>放學</item>
+        <item>瑪莉奧</item>
+        <item>晚安</item>
+        <item>翱翔</item>
+        <item>孩提時光</item>
+        <item>晨練</item>
+        <item>甜心</item>
+        <item>謝幕</item>
+        <item>勝利</item>
+        <item>提醒</item>
+        <item>門鈴</item>
+        <item>晉升</item>
+        <item>凌波</item>
+        <item>到達</item>
+        <item>聰明</item>
+        <item>敏捷</item>
+        <item>紅酒木塞</item>
+        <item>輕敲</item>
+        <item>水滴</item>
+        <item>連接</item>
+        <item>團團轉</item>
+        <item>禮物</item>
+        <item>打擊</item>
+        <item>弦音</item>
+        <item>躍動</item>
+        <item>頑皮</item>
+        <item>巧克力</item>
+        <item>秒速</item>
+        <item>轉角</item>
+        <item>帝國</item>
+        <item>跳躍</item>
+        <item>殿堂</item>
+        <item>流星</item>
+        <item>漣漪</item>
+        <item>閃耀</item>
+        <item>靜夜</item>
+        <item>北極星</item>
+        <item>時空隧道</item>
+    </string-array>
+    <string-array name="urlspan_tel_dialog_title">
+        <item>撥打</item>
+        <item>發送訊息</item>
+        <item>複製</item>
+        <item>加為聯絡人</item>
+    </string-array>
+    <string-array name="urlspan_email_dialog_title">
+        <item>發送電子郵件</item>
+        <item>複製</item>
+        <item>加為聯絡人</item>
+    </string-array>
+    <string-array name="urlspan_date_dialog_title">
+        <item>新事件</item>
+        <item>在日曆中顯示</item>
+        <item>複製</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title">
+        <item>開啟</item>
+        <item>複製</item>
+    </string-array>
+    <string-array name="urlspan_open_dialog_title_chinamobile">
+        <item>開啟</item>
+        <item>複製</item>
+        <item>新增至書籤</item>
+    </string-array>
+    <string-array name="calendar_week_title">
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+    <string-array name="smartbar_left_right_padding">
+        <item>160px</item>
+        <item>170px(預設)</item>
+        <item>180px</item>
+    </string-array>
+</resources>

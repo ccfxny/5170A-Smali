@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: apache-xml.jar
+compressionType: false
+doNotCompress: null
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+unknownFiles:
+  org/apache/xalan/Version.src: '8'
+  org/apache/xalan/res/XSLTInfo.properties: '8'
+  org/apache/xalan/processor/XSLProcessorVersion.src: '8'
+  org/apache/xml/serializer/output_text.properties: '8'
+  org/apache/xml/serializer/Version.src: '8'
+  org/apache/xml/serializer/output_html.properties: '8'
+  org/apache/xml/serializer/output_xml.properties: '8'
+  org/apache/xml/serializer/HTMLEntities.properties: '8'
+  org/apache/xml/serializer/XMLEntities.properties: '8'
+  org/apache/xml/serializer/output_unknown.properties: '8'
+  org/apache/xml/serializer/Encodings.properties: '8'
+usesFramework: null
+version: 2.1.1-04d478-SNAPSHOT
+versionInfo: null

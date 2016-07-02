@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:flyme="http://schemas.android.com/apk/res/flyme">
+    <LinearLayout android:gravity="bottom|center|left" android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="@dimen/mz_resolve_list_back_layout_height">
+        <Button android:textSize="18.0sp" android:id="@id/mz_resolver_back" android:background="@null" android:layout_width="wrap_content" android:layout_height="@dimen/mz_resolve_list_back_button_height" android:text="@string/mz_resolver_back" />
+        <ImageView android:background="#33000000" android:layout_width="fill_parent" android:layout_height="1.0dip" android:scaleType="fitXY" />
+    </LinearLayout>
+    <com.meizu.widget.DragSortListView android:scrollbarThumbVertical="@drawable/mz_scrollbar_handle_vertical" android:scrollbarStyle="outsideOverlay" android:id="@id/mz_resolver_list" android:background="#ffffffff" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/mz_list_selector_background" android:dividerHeight="1.0px" android:nestedScrollingEnabled="true" flyme:mzCollapsedHeight="1.0px" flyme:mzDragScrollStart="0.33" flyme:mzFloatBackgroundColor="#ffffffff" flyme:mzFloatAlpha="0.6" flyme:mzSlideShuffleSpeed="0.3" flyme:mzDragEnabled="true" flyme:mzRemoveEnabled="false" flyme:mzDragStartMode="onDown" flyme:mzDragHandleId="@id/mz_resolver_drag_handle" />
+</LinearLayout>
